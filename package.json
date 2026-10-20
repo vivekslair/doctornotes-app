@@ -1,0 +1,13 @@
+{
+  "name": "rounds-clinical-prototype",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Voice and chat clinical workflow prototype for Railway",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "start": "node server.mjs",
+    "check": "node --check server.mjs && node --check public/app.js",
+    "test": "node --test"
+  }
+}
